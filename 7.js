@@ -74,17 +74,27 @@ for (let note of notes) {
         amount -= note;
     }
 }
+//Q8
+function find_char(char, word) {
+    // Convert the word to lowercase to make the search case-insensitive
+    word = word.toLowerCase();
+    char = char.toLowerCase();
+    
+    let count = 0; // Initialize a count variable
 
-// 8. Count occurrences of a character in a string (case insensitive)
-let str = "Coding Academy by Orange";
-let target = 'o';
-let count = 0;
-for (let c of str.toLowerCase()) {
-    if (c === target.toLowerCase()) {
-        count++;
+    // Loop through each character in the word
+    for (let i = 0; i < word.length; i++) {
+        // If the current character matches the given character, increment the count
+        if (word[i] === char) {
+            count++;
+        }
     }
+
+    return count; // Return the total count
 }
-console.log("Occurrences:", count);
+
+let word = "Coding Academy by Orange";
+console.log(find_char("o", word), " Q 8"); // Output: 2
 
 // 9. Various for loops
 // a. Print numbers 0 to 20
