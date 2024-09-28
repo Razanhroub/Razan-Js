@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Keep padding and borders in check */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Basic font */
+    background-color: #f4f4f4; /* Light background */
+    padding: 20px; /* Some space around */
+}
+
+.container {
+    max-width: 400px; /* Limit form width */
+    margin: auto; /* Center it */
+    background: white; /* White background for form */
+    padding: 20px; /* Space inside */
+    border-radius: 5px; /* Slightly round edges */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Little shadow */
+}
+
+h1 {
+    text-align: center; /* Center heading */
+}
+
+label {
+    display: block; /* Labels on new lines */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.error {
+    color: red; /* Error message color */
+    font-size: 0.9em; /* Slightly smaller */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding */
+    background-color: #28a745; /* Green button */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Round corners */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:disabled {
+    background-color: #ccc; /* Grey when disabled */
+}
+
+.highlight {
+    background-color: yellow; /* Highlighting words with yellow background */
+}

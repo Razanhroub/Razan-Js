@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom2.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form id="registerForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" required>
+            <span class="error" id="usernameError"></span>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+            <span class="error" id="passwordError"></span>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" required>
+            <span class="error" id="confirmPasswordError"></span>
+
+            <button type="submit" id="registerBtn" disabled>Register</button>
+        </form>
+        <p id="successMessage"></p>
+    </div>
+
+    <h2>Text Manipulation</h2>
+    <p id="text">
+        Hey, you're not permitted in there. It's restricted. You'll be deactivated for sure... 
+        Don't call me a mindless philosopher, you overweight glob of grease! Now come out before 
+        somebody sees you. Secret mission? What plans? What are you talking about? I'm not getting 
+        in there! I'm going to regret this.
+    </p>
+    <a href="https://google.com/" id="source-link">Go to source</a>
+
+    <script src="dom2.js"></script>
+</body>
+</html>
