@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgCell = document.createElement("td");
         tRow.appendChild(imgCell);
         const img = document.createElement("img");
-        img.src = `./imgages/${gardenInfo[i].flower}.jpg`;
+        img.src = `./images/${gardenInfo[i].flower}.jpg`;
         img.alt = gardenInfo[i].flower;
         img.width = 50;
         img.height = 50;
